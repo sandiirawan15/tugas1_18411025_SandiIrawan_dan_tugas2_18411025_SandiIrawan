@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_namapanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Panjang">
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_namapamggilan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Panggilan">
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spnjkelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+
+        <EditText
+            android:id="@+id/edt_tempatlahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tempat Lahir">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_tgllahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir">
+        </Button>
+
+        <EditText
+            android:id="@+id/edt_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/edt_hobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobi">
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_pekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pekerjaan">
+        </EditText>
+
+
+        <Button
+            android:id="@+id/btn_peroses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peroses">
+        </Button>
+
+
+        <TextView
+            android:id="@+id/txt_kalimatpengenalan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaliamat Pengenalan Diri">
+        </TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
